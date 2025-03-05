@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <exported-packages>
+        <source-packages/>
+        <resource-packages/>
+    </exported-packages>
+
+    <dependencies>
+        <used-by-source-modules/>
+    </dependencies>
+
+    <providers>
+        <provider interface="javafx.application.Application">dev.webfx.demo.fonticons.FontIconsApplication</provider>
+    </providers>
+
+    <required-libraries>
+        <webfx-library artifact="dev.webfx:webfx-extras:0.1.0-SNAPSHOT"/>
+    </required-libraries>
+
+</project>
