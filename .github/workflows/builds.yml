@@ -33,7 +33,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        app: [{name: 'FontIcons', module-token: 'webfx-demo-fonticons', gwt-token: 'webfx_demo_fonticons', gwt-push-branch: 'fonticons', ios-bundle-id: 'dev.webfx.demo.fonticons', version: '0.1.0-SNAPSHOT'}]
+        app: [{name: 'FontIcons', module-token: 'webfx-demo-fonticons', gwt-token: 'webfx_demo_fonticons', gwt-push-branch: 'fonticons', ios-bundle-id: 'dev.webfx.demo.fonticons', version: '1.0.0-SNAPSHOT'}]
         os-config:  [1]
         include:
           - os-config: 1 # Generates builds 1) 2) 3) 4) & 5)
