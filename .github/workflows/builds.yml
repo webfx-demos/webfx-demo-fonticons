@@ -103,7 +103,7 @@ jobs:
           mkdir /tmp/download
           mkdir /tmp/maven/
           cd /tmp/download
-          curl -O https://dlcdn.apache.org/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz
+          curl -O https://archive.apache.org/dist/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz
           tar -xzf apache-maven-3.8.8-bin.tar.gz -C /tmp/maven/
           ${{ matrix.MVN }} -version
 
